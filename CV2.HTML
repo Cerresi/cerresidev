@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Cerresi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+        *{margin:0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif}
+        body {background-color: lightblue; display: flex; justify-content: center; align-items: center; min-height: 100vh;}
+        .cv {position: relative; width: 100%; max-width: 850px; min-height: 1000px; background-color: #ffff; display: grid; grid-template-columns: 1fr 2fr; box-shadow: 0 35px 55px rgba(0,0,0,0.1); margin: 50px;}
+        .cv .left_side {position: relative; background-color: #003147; padding: 40px;}
+        .cv .right_side {position: relative; background-color: #ffff; padding: 40px;}
+        .profile_text {position: relative; display: flex; flex-direction: column; align-items: center; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.2)}
+        .profile_text .profile_img {position: relative; width: 200px; height: 200px; border-radius: 50%; overflow: hidden;}
+        .profile_text .profile_img img {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;}
+        .profile_text h2 {color: #ffff; font-size: 14px; margin-top: 20px; text-transform: uppercase; text-align: center; font-weight: 600; line-height: 1.4em;}
+        .profile_text h2 span {font-size: 10px; font-weight: 400;}
+        .contato {padding-top: 30px}
+        .título_contato {color: #ffff; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;}
+        .contato ul {position: relative;}
+        .contato ul li {position: relative; list-style: none; margin: 10px 0px; cursor: pointer;}
+        .contato ul li .icone {display: inline-block; width: 30px; font-size: 18px; color: #03a9f4;}
+        .contato ul li span {color: #ffff; font-weight: 300;}
+        .principais_competencias {padding-top: 30px}
+        .título_competencias {color: #ffff; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;}
+        .principais_competencias ul {position: relative;}
+        .principais_competencias ul li {position: relative; list-style: none; margin: 10px 0px; cursor: pointer;}
+        .principais_competencias ul li .icone {display: inline-block; width: 30px; font-size: 18px; color: #03a9f4;}
+        .principais_competencias ul li span {color: #ffff; font-weight: 300;}
+        .bio {margin-bottom: 0px;}
+        .bio :last-child{margin-bottom: 0;}
+        .titulo_resumo {color: #003147; letter-spacing: 1px; margin-bottom: 10px; font-weight: 600;font-size: 25px;}
+        p {color: #333; margin-bottom: 25px; font-weight: 400; font-size: 12px;}
+        .titulo_formacao {color: #003147; letter-spacing: 1px; margin: 30px 0px 10px; font-weight: 600;font-size: 25px;}
+        .bio ul {position: relative;}
+        .bio ul li {position: relative; list-style: none; margin: 10px 0px 10px;}
+        .titulo_exp {color: #003147; letter-spacing: 1px; margin-bottom: 10px; font-weight: 600; margin-top: 30px; font-size: 25px;}
+        .exp_profissional .exp_box {display: flex; flex-direction: row; margin: 20px 0;}
+        .exp_profissional .exp_box .ano_empresa {min-width: 150px; max-width: 150px;}
+        .exp_profissional .exp_box .ano_empresa h5 {text-transform: uppercase; color: #848c90; font-weight: 600;}
+        .exp_profissional .exp_box .ano_empresa p {text-transform: uppercase; color: #848c90; font-weight: 600; font-size: 12px; text-align: left;}
+        .exp_profissional .exp_box .cargo h4 {text-transform: uppercase; color: #2a7da2; font-size: 16px;}
+        .formacao .formacao_box {display: flex; flex-direction: row; margin: 20px 0;}
+        .formacao .formacao_box .ano_formacao {min-width: 150px; max-width: 150px;}
+        .formacao .formacao_box .ano_formacao h5 {text-transform: uppercase; color: #848c90; font-weight: 600;}
+        .formacao .formacao_box .ano_formacao p {text-transform: uppercase; color: #848c90; font-weight: 600; font-size: 12px; text-align: left;}
+        .formacao .formacao_box .curso h4 {text-transform: uppercase; color: #2a7da2; font-size: 16px;}
+    </style>
+</head>
+<body>
+    <div class="cv">
+        <div class="left_side">
+            <div class="profile_text">
+                <div class="profile_img">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFhVUO7rmiqpQ/profile-displayphoto-shrink_200_200/0/1644338504228?e=1649894400&v=beta&t=TAADZ1DmSD7oSHa-T0B7x2FxpNqlFM2MlPA6LhfUnfw" alt="erro">
+                </div>
+                <h2>Lucas Cerresi dos Santos<br><span>Análise e Desenvolvimento de Sistemas</span></h2>
+            </div>
+            <div class="contato">
+                <h3 class="título_contato">Contatos</h3>
+                <ul>
+                    <li>
+                        <span class="icone"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="texto">(11) 95243-1829</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="texto">cerresi@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="texto">/lucas-cerresi</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="texto">São Paulo</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="principais_competencias">
+                <h3 class="título_competencias">Principais Competências</h3>
+                <ul>
+                    <li>
+                        <span class="icone"><i class="fa fa-code" aria-hidden="true"></i></span>
+                        <span class="texto">HTML</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa fa-code" aria-hidden="true"></i></span>
+                        <span class="texto">CSS</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa fa-code" aria-hidden="true"></i></span>
+                        <span class="texto">JavaScript</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="right_side">
+            <div class="bio">
+                <h2 class="titulo_resumo">Resumo</h2>
+                <p>Estudante de Análise e Dev. de Sistemas em busca de vagas de nível iniciante que possibilitem meu aprendizado ao mesmo tempo que contribuo para o desenvolvimento da empresa.<br><br>
+                    Sou um profissional com mais de sete anos de experiência e graduação em Administração de Empresas.<br><br>
+                    Acredito que meu conhecimento em revisão de processos, construção de Dashboards, base de dados, Metodologia Ágil, contato direto com clientes e fornecedores, bom trabalho em equipe e inglês avançado possam contribuir com meu recomeço, agora na área de tecnologia. </p>
+               
+                <div class="exp_profissional">
+                    <h2 class="titulo_exp">Experiência Profissional</h2>
+                    <div class="exp_box">
+                        <div class="ano_empresa">                                
+                        <h5>2020 - 2021</h5>
+                        <p>BBZ</p>
+                        </div>
+                        <div class="cargo">
+                        <h4>Analista Financeiro</h4>
+                        <p>Acompanhamento financeiro da carteira de clientes, previsão orçamentária, negociação de valores de contrato, prospecção de fornecedores, contato direto com o cliente.</p>
+                        </div>
+                    </div>
+                    <div class="exp_box">
+                        <div class="ano_empresa">                                
+                        <h5>2019 - 2020</h5>
+                        <p>Fundação Vunesp</p>
+                        </div>
+                        <div class="cargo">
+                        <h4>Coordenador de Aplicação de Provas</h4>
+                        <p>Responsável pela condução e lisura do processo seletivo (organização do local de prova, realizar treinamento para os colaboradores responsáveis pela aplicação, atendimento ao cliente, conferência do material recebido e coletado).</p>
+                        </div>
+                    </div>
+                    <div class="exp_box">
+                        <div class="ano_empresa">                                
+                        <h5>2017 - 2019</h5>
+                        <p>Deloitte Touche Tohmatsu</p>
+                        </div>
+                        <div class="cargo">
+                        <h4>Business Analyst</h4>
+                        <p>Analista de consultoria empresarial, participando de projetos de acompanhamento e desenvolvimento de indicadores de performance. Desenho, revisão e estruturação de processos, elaboração de <i>Dashboards</i>, gestão de atividades a partir da Metodologia Ágil. </p>
+                        </div>
+                    </div>
+                    <div class="exp_box">
+                        <div class="ano_empresa">                                
+                        <h5>2013 - 2014</h5>
+                        <p>ARTESP</p>
+                        </div>
+                        <div class="cargo">
+                        <h4>Estagiário concursado</h4>
+                        <p>Levantamento do nível de serviço das rodovias concessionadas e acompanhamento de rotinas administrativas.</p>
+                    </div> 
+                </div>  
+
+                <div class="formacao">
+                    <h2 class="titulo_formacao">Formação Acadêmica</h2> 
+                    <div class="formacao_box">
+                        <div class="ano_formacao">                                
+                            <h5>2022 - 2025</h5>
+                            <p>Universidade Presbiteriana Mackenzie</p>  
+                        </div> 
+                        <div class="curso">
+                        <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+                        <p>Cursando o 1º Semestre de tecnólogo em análise e Desenvolvimento de Sistemas, conclusão prevista para o primeiro semestre de 2025. Grade curricular composta por elementos de <i>front</i> e <i>back-end</i>.</p>
+                        </div>
+                    </div>
+                    <div class="formacao_box">
+                        <div class="ano_formacao">                                
+                            <h5>2021 - 2022</h5>
+                            <p>Udemy</p>  
+                        </div> 
+                        <div class="curso">
+                        <h4>Curso de HTML, CSS, JavaScript</h4>
+                        <p>Curso de Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns.</p>
+                        </div>
+                    </div> 
+                    <div class="formacao_box">
+                        <div class="ano_formacao">                                
+                            <h5>2016</h5>
+                            <p>Connect English<br>Wise Up</p>  
+                        </div> 
+                        <div class="curso">
+                        <h4>Inglês - Fluente</h4>
+                        <p>Certificado de inglês pela escola de idiomas Wise Up e intercâmbio para Califórna pela escola Connect English.</p>
+                        </div>
+                    </div>      
+                    <div class="formacao_box">
+                        <div class="ano_formacao">                                
+                            <h5>2012 - 2016</h5>
+                            <p>Centro <br>Universitário<br> Senac</p>  
+                        </div> 
+                        <div class="curso">
+                        <h4>Bacharelado em Administração de Empresas</h4>
+                        <p>Formado em administração de empresas, com conhecimento em gestão de pessoas, teorias administrativas, modelagens estatísticas e matemática financeira.</p>
+                        </div>
+                    </div>     
+                </div>                
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
